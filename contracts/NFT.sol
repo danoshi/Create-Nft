@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: MIT
+// SPDX-License-Identifier: Something Else
 pragma solidity ^0.8.0;
 
 import '@openzeppelin/contracts/token/ERC721/ERC721.sol';
@@ -17,7 +19,7 @@ contract NFT is ERC721 {
   }
 
   function _baseURI() internal view override returns (string memory) {
-    return '';
+    return 'https://shielded-forest-14506.herokuapp.com/';
   }
 
 }
