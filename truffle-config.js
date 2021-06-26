@@ -1,5 +1,5 @@
 const HDWalletProvider = require('@truffle/hdwallet-provider');
-const mnemonic = 'garden broccoli unaware improve abandon emotion equip mercy boss runway object lady';
+const mnemonic = '';
 
 /**
  * Use this file to configure your truffle project. It's seeded with some
